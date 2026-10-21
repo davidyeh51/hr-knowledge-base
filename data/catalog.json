@@ -1,0 +1,20 @@
+{
+  "tagline": "六本經典人資著作的麥肯錫風格導讀簡報：從通論、策略、薪酬到數位化，一站搜尋、快速學習。",
+  "updated": "2026-10-21",
+  "domains": [
+    {"id": "foundation", "name": "人資管理通論", "desc": "六大模組與基本功：完整的人資管理知識框架"},
+    {"id": "strategy", "name": "策略與顧問視角", "desc": "從業務與投行／顧問視角重新定位人資價值"},
+    {"id": "reward", "name": "薪酬與人才機制", "desc": "薪酬哲學、激勵與人才機制設計"},
+    {"id": "digital", "name": "HR 數位化", "desc": "認知升級與系統建構，數據驅動的人資管理"},
+    {"id": "ob", "name": "組織行為學", "desc": "對應資料夾 A2.5.4.2（待擴充）"},
+    {"id": "team", "name": "高績效團隊", "desc": "對應資料夾 A2.5.4.3（待擴充）"}
+  ],
+  "decks": [
+    {"id": "b4", "file": "b4.json", "slug": "hrm-wu-shaohua", "domain": "foundation"},
+    {"id": "b6", "file": "b6.json", "slug": "mckinsey-hr", "domain": "strategy"},
+    {"id": "b5", "file": "b5.json", "slug": "wallstreet-hr", "domain": "strategy"},
+    {"id": "b2", "file": "b2.json", "slug": "hrd-consulting-notes", "domain": "strategy"},
+    {"id": "b3", "file": "b3.json", "slug": "hr-is-simple", "domain": "reward"},
+    {"id": "b1", "file": "b1.json", "slug": "hr-digitalization", "domain": "digital"}
+  ]
+}
