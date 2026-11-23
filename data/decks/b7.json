@@ -1,0 +1,517 @@
+{
+  "id": "b7",
+  "title": "成長的斜率",
+  "subtitle": "全球百大思想家與矽谷投資人的高潛人才法則（得到哈希解讀）",
+  "author": "泰勒·考恩（Tyler Cowen）& 丹尼爾·格羅斯（Daniel Gross）｜哈希解讀",
+  "category": "選才與人才識別",
+  "audience": "帶團隊招募與提拔人才的管理者、HR 選才專家，以及希望讓自身價值被看見的職場人",
+  "claim": "判斷一個人未來的成長性，不該看靜態「截距」（學歷、智商、過往成績），而該看動態「斜率」（耐力、自驅提升與未來變強的速度）。",
+  "keywords": [
+    "成長的斜率",
+    "截距與斜率",
+    "選才",
+    "甄選",
+    "高潛人才",
+    "泰勒考恩",
+    "丹尼爾格羅斯",
+    "學歷通膨",
+    "智商解釋力",
+    "大五人格",
+    "盡責性",
+    "耐力",
+    "鋼琴家練音階",
+    "連續追問",
+    "非正式環境面試",
+    "主流共識問題",
+    "背景調查",
+    "英雄之旅故事",
+    "推薦人經營",
+    "AI時代選才"
+  ],
+  "slides": [
+    {
+      "type": "cover",
+      "title": "識別未來高潛人才的關鍵，不在靜態「截距」，而在動態「成長斜率」",
+      "image": "../assets/img/slope-book-cover.jpg",
+      "notes": [
+        "① 本頁結論：選才與職涯成長的本質是押注未來，真正具預測力的指標是動態「斜率」而非靜態「截距」。",
+        "② 補充說明：原著作者為喬治梅森大學經濟學教授泰勒·考恩與前 YC 合夥人丹尼爾·格羅斯，由得到哈希解讀（26分47秒）；OpenAI 奧爾特曼力薦表示「花了很多年學習發現人才，讀本書仍吃驚學到這麼多」。",
+        "③ 下一頁轉場：先從一頁全景架構圖，掌握全書評估者與被評估者雙側的完整邏輯。"
+      ]
+    },
+    {
+      "type": "architecture",
+      "title": "全書以「斜率思維」貫穿評估者與被評估者雙側，重構 AI 時代識人法則",
+      "svg": "<svg viewBox=\"0 0 1120 350\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Noto Sans TC, Microsoft JhengHei, sans-serif\">\n  <defs>\n    <marker id=\"arrA\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\">\n      <path d=\"M0,1 L9,5 L0,9 Z\" fill=\"#D97706\"/>\n    </marker>\n    <marker id=\"arrN\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\">\n      <path d=\"M0,1 L9,5 L0,9 Z\" fill=\"#0B2545\"/>\n    </marker>\n  </defs>\n  <!-- 頂部核心命題橫帶 -->\n  <rect x=\"0\" y=\"0\" width=\"1120\" height=\"50\" rx=\"4\" fill=\"#0B2545\"/>\n  <text x=\"24\" y=\"31\" fill=\"#D97706\" font-size=\"14\" font-weight=\"800\" letter-spacing=\"2\">CORE PREMISE</text>\n  <text x=\"168\" y=\"32\" fill=\"#FFFFFF\" font-size=\"18\" font-weight=\"700\">核心典範轉移：從靜態「截距」（過去站在哪）→ 動態「斜率」（未來變強的速度）</text>\n\n  <!-- 左欄：層 1 破除迷思 -->\n  <rect x=\"0\" y=\"72\" width=\"340\" height=\"270\" rx=\"4\" fill=\"#F1F5F9\" stroke=\"#CBD5E1\" stroke-width=\"1.5\"/>\n  <rect x=\"0\" y=\"72\" width=\"340\" height=\"6\" fill=\"#475569\"/>\n  <text x=\"20\" y=\"106\" fill=\"#475569\" font-size=\"13\" font-weight=\"700\" letter-spacing=\"1\">01 ｜ 評估者視角 · 破除迷思</text>\n  <text x=\"20\" y=\"134\" fill=\"#0B2545\" font-size=\"21\" font-weight=\"800\">三大被高估的靜態指標</text>\n  <rect x=\"20\" y=\"152\" width=\"300\" height=\"50\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n  <text x=\"34\" y=\"174\" fill=\"#0B2545\" font-size=\"15\" font-weight=\"700\">學歷通膨</text>\n  <text x=\"34\" y=\"194\" fill=\"#475569\" font-size=\"13\">收入解釋力 75% → 38%，同學歷內部分化</text>\n  <rect x=\"20\" y=\"212\" width=\"300\" height=\"50\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n  <text x=\"34\" y=\"234\" fill=\"#0B2545\" font-size=\"15\" font-weight=\"700\">智商非通用</text>\n  <text x=\"34\" y=\"254\" fill=\"#475569\" font-size=\"13\">解釋力 66%→5%，與總財富無顯著正相關</text>\n  <rect x=\"20\" y=\"272\" width=\"300\" height=\"54\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n  <text x=\"34\" y=\"294\" fill=\"#0B2545\" font-size=\"15\" font-weight=\"700\">盡責性三大坑</text>\n  <text x=\"34\" y=\"314\" fill=\"#475569\" font-size=\"13\">面試相關僅 0.28、選擇性釋放、不如設機制</text>\n\n  <!-- 箭頭 1->2 -->\n  <line x1=\"346\" y1=\"207\" x2=\"380\" y2=\"207\" stroke=\"#D97706\" stroke-width=\"3\" marker-end=\"url(#arrA)\"/>\n\n  <!-- 中欄：層 2 鎖定訊號與技法 -->\n  <rect x=\"390\" y=\"72\" width=\"350\" height=\"270\" rx=\"4\" fill=\"#F1F5F9\" stroke=\"#0B2545\" stroke-width=\"1.5\"/>\n  <rect x=\"390\" y=\"72\" width=\"350\" height=\"6\" fill=\"#0B2545\"/>\n  <text x=\"410\" y=\"106\" fill=\"#D97706\" font-size=\"13\" font-weight=\"700\" letter-spacing=\"1\">02 ｜ 評估者視角 · 識真技法</text>\n  <text x=\"410\" y=\"134\" fill=\"#0B2545\" font-size=\"21\" font-weight=\"800\">兩大低估素質 ＋ 四大測真法</text>\n  <rect x=\"410\" y=\"152\" width=\"310\" height=\"74\" rx=\"3\" fill=\"#0B2545\"/>\n  <text x=\"424\" y=\"176\" fill=\"#D97706\" font-size=\"14\" font-weight=\"800\">★ 真正該看的斜率訊號</text>\n  <text x=\"424\" y=\"198\" fill=\"#FFFFFF\" font-size=\"14\">• 耐力：無人要求與監督時仍持續推進</text>\n  <text x=\"424\" y=\"218\" fill=\"#FFFFFF\" font-size=\"14\">• 自驅提升：類「鋼琴家練音階」常規訓練</text>\n  <rect x=\"410\" y=\"236\" width=\"150\" height=\"42\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n  <text x=\"422\" y=\"262\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"700\">① 連續追問 7–8 次</text>\n  <rect x=\"570\" y=\"236\" width=\"150\" height=\"42\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n  <text x=\"582\" y=\"262\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"700\">② 切換非正式環境</text>\n  <rect x=\"410\" y=\"286\" width=\"150\" height=\"42\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n  <text x=\"422\" y=\"312\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"700\">③ 問主流共識觀點</text>\n  <rect x=\"570\" y=\"286\" width=\"150\" height=\"42\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n  <text x=\"582\" y=\"312\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"700\">④ 必查前直屬上級</text>\n\n  <!-- 箭頭 2->3 -->\n  <line x1=\"746\" y1=\"207\" x2=\"780\" y2=\"207\" stroke=\"#D97706\" stroke-width=\"3\" marker-end=\"url(#arrA)\"/>\n\n  <!-- 右欄：層 3 被評估者視角 -->\n  <rect x=\"790\" y=\"72\" width=\"330\" height=\"270\" rx=\"4\" fill=\"#F1F5F9\" stroke=\"#D97706\" stroke-width=\"1.5\"/>\n  <rect x=\"790\" y=\"72\" width=\"330\" height=\"6\" fill=\"#D97706\"/>\n  <text x=\"810\" y=\"106\" fill=\"#D97706\" font-size=\"13\" font-weight=\"700\" letter-spacing=\"1\">03 ｜ 被評估者視角 · 價值呈現</text>\n  <text x=\"810\" y=\"134\" fill=\"#0B2545\" font-size=\"21\" font-weight=\"800\">讓自身斜率被看見三行動</text>\n  <rect x=\"810\" y=\"152\" width=\"290\" height=\"52\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n  <text x=\"824\" y=\"175\" fill=\"#0B2545\" font-size=\"15\" font-weight=\"700\">1. 別背答案，攢故事</text>\n  <text x=\"824\" y=\"195\" fill=\"#475569\" font-size=\"13\">5–8 個三分鐘高細節密度防偽真實故事</text>\n  <rect x=\"810\" y=\"213\" width=\"290\" height=\"52\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n  <text x=\"824\" y=\"236\" fill=\"#0B2545\" font-size=\"15\" font-weight=\"700\">2. 平時經營，攢推薦人</text>\n  <text x=\"824\" y=\"256\" fill=\"#475569\" font-size=\"13\">每 2–3 個月同步進展，主動提供具體素材</text>\n  <rect x=\"810\" y=\"274\" width=\"290\" height=\"54\" rx=\"3\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n  <text x=\"824\" y=\"297\" fill=\"#0B2545\" font-size=\"15\" font-weight=\"700\">3. 別攢形容詞，攢證據</text>\n  <text x=\"824\" y=\"317\" fill=\"#475569\" font-size=\"13\">具體 ＋ 持續 ＋ 可量化進展的常規訓練</text>\n</svg>",
+      "layers": [
+        {
+          "label": "破除迷思（高估因素）",
+          "desc": "拆解學歷、智商與盡責性為何預測力遠低於想像",
+          "chapters": [
+            "核心定義：截距 vs 斜率",
+            "被高估指標：學歷 / 智商 / 盡責性"
+          ]
+        },
+        {
+          "label": "鎖定訊號（低估＋技法）",
+          "desc": "辨識耐力與自驅提升，搭配四大測真面試與背調法",
+          "chapters": [
+            "被低估素質：耐力 / 音階式訓練",
+            "測真技法：連問 / 換場 / 共識題 / 背調"
+          ]
+        },
+        {
+          "label": "展現價值（被評估者）",
+          "desc": "當 AI 稀釋標準答案，個人如何建立無法偽造的斜率證據",
+          "chapters": [
+            "攢真實細節故事",
+            "攢長期推薦人與進展證據"
+          ]
+        }
+      ],
+      "relation": "先推翻失靈的靜態篩選慣性（第1層），才能鎖定真正高預測力的動態訊號與面試技法（第2層），並反轉為個人打造不可偽造價值的行動藍圖（第3層）。",
+      "notes": [
+        "① 本頁結論：全書圍繞「斜率」分評估者破迷思、評估者測真相、被評估者秀證據三層展開。",
+        "② 補充說明：本架構重新視覺化原解讀重點，嚴格忠於來源文稿脈絡；原書未在解讀稿展開之細節均標註「原文未載」。",
+        "③ 下一頁轉場：先釐清為什麼 AI 時代讓傳統「截距」選才徹底失靈。"
+      ]
+    },
+    {
+      "type": "chapter",
+      "layout": "split",
+      "title": "傳統選才只看靜態「截距」，但決定三年後勝負的是動態「斜率」",
+      "chapters": "核心概念 · 截距 vs 斜率",
+      "problem": "招人與提拔都是在押注未來，AI 讓履歷與標準答案唾手可得，該憑什麼押注？",
+      "svg": "<svg viewBox=\"0 0 580 390\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Noto Sans TC, Microsoft JhengHei, sans-serif\">\n  <rect x=\"0\" y=\"0\" width=\"580\" height=\"390\" rx=\"4\" fill=\"#F8FAFC\" stroke=\"#CBD5E1\"/>\n  <text x=\"24\" y=\"32\" fill=\"#0B2545\" font-size=\"16\" font-weight=\"800\">人生與職涯坐標系：靜態「截距」vs 動態「成長斜率」</text>\n  <!-- 網格線 -->\n  <line x1=\"70\" y1=\"320\" x2=\"540\" y2=\"320\" stroke=\"#0B2545\" stroke-width=\"2\"/>\n  <line x1=\"70\" y1=\"60\" x2=\"70\" y2=\"320\" stroke=\"#0B2545\" stroke-width=\"2\"/>\n  <line x1=\"70\" y1=\"255\" x2=\"540\" y2=\"255\" stroke=\"#CBD5E1\" stroke-dasharray=\"4,4\"/>\n  <line x1=\"70\" y1=\"190\" x2=\"540\" y2=\"190\" stroke=\"#CBD5E1\" stroke-dasharray=\"4,4\"/>\n  <line x1=\"70\" y1=\"125\" x2=\"540\" y2=\"125\" stroke=\"#CBD5E1\" stroke-dasharray=\"4,4\"/>\n  <!-- 軸標籤 -->\n  <text x=\"20\" y=\"80\" fill=\"#475569\" font-size=\"13\" font-weight=\"700\">能力</text>\n  <text x=\"20\" y=\"98\" fill=\"#475569\" font-size=\"13\" font-weight=\"700\">高度</text>\n  <text x=\"70\" y=\"346\" fill=\"#475569\" font-size=\"13\" text-anchor=\"middle\">現在 (T0)</text>\n  <text x=\"225\" y=\"346\" fill=\"#475569\" font-size=\"13\" text-anchor=\"middle\">1 年後</text>\n  <text x=\"380\" y=\"346\" fill=\"#0B2545\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">3 年後</text>\n  <text x=\"525\" y=\"346\" fill=\"#0B2545\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\">5 年後</text>\n  <!-- 高截距低斜率線（灰） -->\n  <line x1=\"70\" y1=\"185\" x2=\"525\" y2=\"155\" stroke=\"#94A3B8\" stroke-width=\"3.5\" stroke-dasharray=\"8,5\"/>\n  <circle cx=\"70\" cy=\"185\" r=\"6\" fill=\"#475569\"/>\n  <rect x=\"82\" y=\"146\" width=\"166\" height=\"28\" rx=\"3\" fill=\"#F1F5F9\" stroke=\"#CBD5E1\"/>\n  <text x=\"90\" y=\"165\" fill=\"#475569\" font-size=\"13\" font-weight=\"700\">高截距：名校/光環起點</text>\n  <rect x=\"372\" y=\"176\" width=\"152\" height=\"26\" rx=\"3\" fill=\"#F1F5F9\" stroke=\"#CBD5E1\"/>\n  <text x=\"448\" y=\"194\" fill=\"#475569\" font-size=\"12.5\" font-weight=\"700\" text-anchor=\"middle\">低斜率（成長平緩）</text>\n  <!-- 低截距高斜率線（琥珀金） -->\n  <line x1=\"70\" y1=\"285\" x2=\"525\" y2=\"78\" stroke=\"#D97706\" stroke-width=\"4.5\"/>\n  <circle cx=\"70\" cy=\"285\" r=\"6\" fill=\"#D97706\"/>\n  <circle cx=\"268\" cy=\"195\" r=\"6\" fill=\"#0B2545\"/>\n  <circle cx=\"525\" cy=\"78\" r=\"7\" fill=\"#D97706\"/>\n  <!-- 交叉點與差距標示 -->\n  <line x1=\"268\" y1=\"195\" x2=\"268\" y2=\"320\" stroke=\"#0B2545\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/>\n  <rect x=\"197\" y=\"218\" width=\"142\" height=\"26\" rx=\"3\" fill=\"#0B2545\"/>\n  <text x=\"268\" y=\"236\" fill=\"#FFFFFF\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\">成長斜率反超交叉點</text>\n  <!-- 高斜率標籤避開端點 -->\n  <rect x=\"242\" y=\"68\" width=\"176\" height=\"32\" rx=\"3\" fill=\"#FEF3C7\" stroke=\"#D97706\"/>\n  <text x=\"330\" y=\"89\" fill=\"#0B2545\" font-size=\"13\" font-weight=\"800\" text-anchor=\"middle\">高斜率：未來變強的速度</text>\n  <line x1=\"418\" y1=\"84\" x2=\"462\" y2=\"104\" stroke=\"#D97706\" stroke-width=\"1.8\" stroke-dasharray=\"3,2\"/>\n  <text x=\"86\" y=\"304\" fill=\"#D97706\" font-size=\"13\" font-weight=\"700\">截距固定，斜率動態可累積且無法假裝</text>\n  <!-- 底部註記 -->\n  <text x=\"24\" y=\"376\" fill=\"#94A3B8\" font-size=\"11\">來源：《成長的斜率》哈希解讀核心定義（y = kx + b 類比）</text>\n</svg>",
+      "highlights": [
+        {
+          "head": "截距靜態，斜率決定速度",
+          "body": "截距是現在站在哪（出身、學歷、過往成績），畫上圖就固定；斜率是往上走的坡度，代表未來變強的速度。",
+          "stat": "截距 vs 斜率"
+        },
+        {
+          "head": "AI 讓識人變得更困難",
+          "body": "前領英中國總裁陸堅指出：漂亮履歷與精彩面試稿背後都可能有 AI 幫忙，標準答案貶值讓真人才更難識別。",
+          "stat": ""
+        },
+        {
+          "head": "作者本人即低截距高斜率",
+          "body": "丹尼爾·格羅斯沒上大學、青春期沉迷遊戲，卻在 23 歲把創辦的公司賣給蘋果，後成矽谷 YC 合夥人。",
+          "stat": "23歲賣給蘋果"
+        }
+      ],
+      "oneliner": "押錯人的代價是兩三年時間與高昂機會成本，選才必須從靜態履歷轉向動態斜率。",
+      "keywords": [
+        "截距",
+        "斜率",
+        "AI面試",
+        "陸堅",
+        "丹尼爾格羅斯",
+        "奧爾特曼"
+      ],
+      "notes": [
+        "① 本頁結論：截距只反映過去的位置，斜率才反映一個人未來三至五年的複利成長速度。",
+        "② 補充說明：來源指出理解別人如何看待人才，對求職者同樣關鍵，因為能更有針對性地展示自身價值。",
+        "③ 下一頁轉場：接下來逐一檢驗三個最常被過度高估的傳統「截距」指標——首先看學歷。"
+      ]
+    },
+    {
+      "type": "chapter",
+      "layout": "split",
+      "title": "學歷對收入差異的解釋力腰斬至 38%，拉開差距的是同學歷內部分化",
+      "chapters": "被高估因素 1 · 學歷",
+      "problem": "名校文憑與碩士學位，今日還能精準預測人才未來的表現差距嗎？",
+      "svg": "<svg viewBox=\"0 0 580 390\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Noto Sans TC, Microsoft JhengHei, sans-serif\">\n  <rect x=\"0\" y=\"0\" width=\"580\" height=\"390\" rx=\"4\" fill=\"#F8FAFC\" stroke=\"#CBD5E1\"/>\n  <text x=\"24\" y=\"32\" fill=\"#0B2545\" font-size=\"16\" font-weight=\"800\">美國收入研究：學歷對收入差異的解釋力腰斬</text>\n  <text x=\"24\" y=\"54\" fill=\"#475569\" font-size=\"13\">單位：收入差距可由學歷解釋之比例（%）</text>\n\n  <!-- 基準線 -->\n  <line x1=\"70\" y1=\"305\" x2=\"530\" y2=\"305\" stroke=\"#0B2545\" stroke-width=\"2\"/>\n  <line x1=\"70\" y1=\"105\" x2=\"530\" y2=\"105\" stroke=\"#CBD5E1\" stroke-dasharray=\"4,4\"/>\n  <text x=\"58\" y=\"110\" fill=\"#94A3B8\" font-size=\"12\" text-anchor=\"end\">80%</text>\n  <line x1=\"70\" y1=\"205\" x2=\"530\" y2=\"205\" stroke=\"#CBD5E1\" stroke-dasharray=\"4,4\"/>\n  <text x=\"58\" y=\"210\" fill=\"#94A3B8\" font-size=\"12\" text-anchor=\"end\">40%</text>\n  <text x=\"58\" y=\"310\" fill=\"#94A3B8\" font-size=\"12\" text-anchor=\"end\">0%</text>\n\n  <!-- 柱 1: 1980-2000 (75%) -> 高度 = 75/80 * 200 = 187.5 -> y=117.5 -->\n  <rect x=\"130\" y=\"117\" width=\"110\" height=\"188\" rx=\"3\" fill=\"#0B2545\"/>\n  <text x=\"185\" y=\"106\" fill=\"#0B2545\" font-size=\"28\" font-weight=\"800\" text-anchor=\"middle\">75%</text>\n  <text x=\"185\" y=\"328\" fill=\"#0B2545\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\">1980 – 2000 年</text>\n  <text x=\"185\" y=\"348\" fill=\"#475569\" font-size=\"12\" text-anchor=\"middle\">大學生稀缺，文憑即門檻</text>\n\n  <!-- 下降標註箭頭 -->\n  <path d=\"M250,150 Q300,150 342,200\" fill=\"none\" stroke=\"#D97706\" stroke-width=\"3\" stroke-dasharray=\"5,3\"/>\n  <polygon points=\"347,206 335,202 343,193\" fill=\"#D97706\"/>\n  <rect x=\"258\" y=\"122\" width=\"118\" height=\"32\" rx=\"16\" fill=\"#D97706\"/>\n  <text x=\"317\" y=\"143\" fill=\"#FFFFFF\" font-size=\"14\" font-weight=\"800\" text-anchor=\"middle\">-37 個百分點</text>\n\n  <!-- 柱 2: 2000-2017 (38%) -> 高度 = 38/80 * 200 = 95 -> y=210 -->\n  <rect x=\"355\" y=\"210\" width=\"110\" height=\"95\" rx=\"3\" fill=\"#D97706\"/>\n  <text x=\"410\" y=\"198\" fill=\"#D97706\" font-size=\"28\" font-weight=\"800\" text-anchor=\"middle\">38%</text>\n  <text x=\"410\" y=\"328\" fill=\"#0B2545\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\">2000 – 2017 年</text>\n  <text x=\"410\" y=\"348\" fill=\"#475569\" font-size=\"12\" text-anchor=\"middle\">碩士成「新學士」，同學歷分化</text>\n\n  <text x=\"24\" y=\"376\" fill=\"#94A3B8\" font-size=\"11\">來源：《成長的斜率》引用之美國收入差異研究（1980–2017）</text>\n</svg>",
+      "highlights": [
+        {
+          "head": "學歷解釋力劇降 37%",
+          "body": "美國收入研究顯示，學歷對收入差異的解釋力從 1980–2000 年的 75%，驟降至 2000–2017 年的 38%。",
+          "stat": "75% → 38%"
+        },
+        {
+          "head": "學歷嚴重通膨稀釋區分度",
+          "body": "八十年代百人僅十幾人念大學，如今幾十人念過；書中直言碩士學位已異化為「新的學士學位」。",
+          "stat": ""
+        },
+        {
+          "head": "差距轉向同學歷內部",
+          "body": "同校同專業畢業兩人，十年後一人帶百人團隊、一人仍是基層；高回報來自超出受教育水平的才能。",
+          "stat": ""
+        }
+      ],
+      "oneliner": "教育只能把人帶到基本門檻，真正拉開長期回報的，是文憑之外的額外才能。",
+      "keywords": [
+        "學歷通膨",
+        "收入差異",
+        "75%",
+        "38%",
+        "新學士學位",
+        "內部分化"
+      ],
+      "notes": [
+        "① 本頁結論：學歷作為篩選工具的區分度已大幅衰退，無法單獨代表未來高成長性。",
+        "② 補充說明：2000–2017 年間收入差距擴大主要發生在相同學歷人群內部；原解讀未載該研究具體學者姓名（原文未載）。",
+        "③ 下一頁轉場：既然學歷失靈，那改看「智商與聰明程度」是否可靠？下一頁用兩項大型追蹤數據揭曉。"
+      ]
+    },
+    {
+      "type": "chapter",
+      "layout": "split",
+      "title": "世上沒有「通用的優秀」，智商解釋力在不同職業間從 66% 驟降至 5%",
+      "chapters": "被高估因素 2 · 智商與聰明",
+      "problem": "高智商是否放諸四海皆準，且必然帶來更高的財富與職場成就？",
+      "svg": "<svg viewBox=\"0 0 580 390\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Noto Sans TC, Microsoft JhengHei, sans-serif\">\n  <rect x=\"0\" y=\"0\" width=\"580\" height=\"390\" rx=\"4\" fill=\"#F8FAFC\" stroke=\"#CBD5E1\"/>\n  <text x=\"24\" y=\"32\" fill=\"#0B2545\" font-size=\"16\" font-weight=\"800\">芬蘭追蹤研究：不同職業對「智商」與「父母學歷」的依賴</text>\n  <!-- 圖例 -->\n  <rect x=\"24\" y=\"48\" width=\"14\" height=\"14\" rx=\"2\" fill=\"#0B2545\"/>\n  <text x=\"44\" y=\"60\" fill=\"#0B2545\" font-size=\"13\" font-weight=\"700\">智商解釋力（%）</text>\n  <rect x=\"175\" y=\"48\" width=\"14\" height=\"14\" rx=\"2\" fill=\"#D97706\"/>\n  <text x=\"195\" y=\"60\" fill=\"#0B2545\" font-size=\"13\" font-weight=\"700\">父母受教育程度解釋力（%）</text>\n\n  <!-- 軸線 x=110 為 0%, 每 1% = 5.6px (70% = 392px) -->\n  <line x1=\"110\" y1=\"80\" x2=\"110\" y2=\"335\" stroke=\"#0B2545\" stroke-width=\"2\"/>\n  <line x1=\"278\" y1=\"80\" x2=\"278\" y2=\"335\" stroke=\"#CBD5E1\" stroke-dasharray=\"3,3\"/>\n  <line x1=\"446\" y1=\"80\" x2=\"446\" y2=\"335\" stroke=\"#CBD5E1\" stroke-dasharray=\"3,3\"/>\n  <text x=\"110\" y=\"352\" fill=\"#94A3B8\" font-size=\"11\" text-anchor=\"middle\">0%</text>\n  <text x=\"278\" y=\"352\" fill=\"#94A3B8\" font-size=\"11\" text-anchor=\"middle\">30%</text>\n  <text x=\"446\" y=\"352\" fill=\"#94A3B8\" font-size=\"11\" text-anchor=\"middle\">60%</text>\n\n  <!-- 組 1: 發明家 66% vs 1% -->\n  <text x=\"98\" y=\"122\" fill=\"#0B2545\" font-size=\"16\" font-weight=\"800\" text-anchor=\"end\">發明家</text>\n  <rect x=\"110\" y=\"96\" width=\"370\" height=\"24\" rx=\"2\" fill=\"#0B2545\"/>\n  <text x=\"488\" y=\"113\" fill=\"#0B2545\" font-size=\"15\" font-weight=\"800\">66%</text>\n  <rect x=\"110\" y=\"125\" width=\"8\" height=\"24\" rx=\"2\" fill=\"#D97706\"/>\n  <text x=\"126\" y=\"142\" fill=\"#D97706\" font-size=\"14\" font-weight=\"700\">1%</text>\n\n  <!-- 組 2: 醫生 8% vs 39% -->\n  <text x=\"98\" y=\"206\" fill=\"#0B2545\" font-size=\"16\" font-weight=\"800\" text-anchor=\"end\">醫　生</text>\n  <rect x=\"110\" y=\"180\" width=\"45\" height=\"24\" rx=\"2\" fill=\"#0B2545\"/>\n  <text x=\"163\" y=\"197\" fill=\"#0B2545\" font-size=\"15\" font-weight=\"800\">8%</text>\n  <rect x=\"110\" y=\"209\" width=\"218\" height=\"24\" rx=\"2\" fill=\"#D97706\"/>\n  <text x=\"336\" y=\"226\" fill=\"#D97706\" font-size=\"15\" font-weight=\"800\">39%</text>\n\n  <!-- 組 3: 律師 5% vs 52% -->\n  <text x=\"98\" y=\"290\" fill=\"#0B2545\" font-size=\"16\" font-weight=\"800\" text-anchor=\"end\">律　師</text>\n  <rect x=\"110\" y=\"264\" width=\"28\" height=\"24\" rx=\"2\" fill=\"#0B2545\"/>\n  <text x=\"146\" y=\"281\" fill=\"#0B2545\" font-size=\"15\" font-weight=\"800\">5%</text>\n  <rect x=\"110\" y=\"293\" width=\"291\" height=\"24\" rx=\"2\" fill=\"#D97706\"/>\n  <text x=\"409\" y=\"310\" fill=\"#D97706\" font-size=\"15\" font-weight=\"800\">52%</text>\n\n  <text x=\"24\" y=\"376\" fill=\"#94A3B8\" font-size=\"11\">來源：芬蘭 1961–1984 出生全體男性服兵役智商測試與職業追蹤研究</text>\n</svg>",
+      "highlights": [
+        {
+          "head": "芬蘭研究：跨職業落差懸殊",
+          "body": "預測發明家時智商佔 66%（父母學歷僅 1%）；但醫生智商僅 8%（父母學歷 39%），律師智商更只有 5%（父母學歷 52%）。",
+          "stat": "66% vs 5%"
+        },
+        {
+          "head": "聰明不等於更有錢",
+          "body": "經濟學家扎戈斯基追蹤 7,403 名美國人（1979–2004）：智商高 1 分年收多 200–600 美元，但與總財富無正相關，照樣透支破產。",
+          "stat": "7,403人樣本"
+        },
+        {
+          "head": "最聰明投資人的反直覺提醒",
+          "body": "矽谷名宿馬克·安德森直言招聘過度強調智力，他更看重：驅動力、自我激勵、好奇心與道德水準。",
+          "stat": "4大核心特質"
+        }
+      ],
+      "oneliner": "同一個人才訊號換到不同崗位分量天差地別，選才不能只靠單一智商濾鏡。",
+      "keywords": [
+        "芬蘭智商研究",
+        "扎戈斯基",
+        "馬克安德森",
+        "通用優秀",
+        "父母受教育程度",
+        "財富積累"
+      ],
+      "notes": [
+        "① 本頁結論：不存在放諸四海皆準的「通用優秀」，智力既非跨職業萬靈丹，也不保證長期財富累積。",
+        "② 補充說明：作者克制指出，醫生與律師高度受父母學歷影響，可能因領域需要特定背景，也可能因准入機制排外擋住普通出身的聰明人。",
+        "③ 下一頁轉場：除了學歷和智商，企業最愛看的「責任心（盡責性）」竟也藏著三個選才大坑。"
+      ]
+    },
+    {
+      "type": "chapter",
+      "layout": "top-svg",
+      "title": "盡責性在面試中極易偽裝且與工時無正相關，設計對激勵機制遠比篩選有效",
+      "chapters": "被高估因素 3 · 責任心（盡責性）",
+      "problem": "大五人格中「盡責性」雖最能預測績效，為何在實務選才上常踩坑？",
+      "svg": "<svg viewBox=\"0 0 1120 250\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Noto Sans TC, Microsoft JhengHei, sans-serif\">\n  <!-- 陷阱 1 -->\n  <rect x=\"0\" y=\"0\" width=\"356\" height=\"242\" rx=\"4\" fill=\"#F8FAFC\" stroke=\"#CBD5E1\" stroke-width=\"1.5\"/>\n  <rect x=\"0\" y=\"0\" width=\"356\" height=\"36\" rx=\"4\" fill=\"#0B2545\"/>\n  <text x=\"16\" y=\"23\" fill=\"#FFFFFF\" font-size=\"15\" font-weight=\"700\">陷阱 1｜面試測不準（全都在演）</text>\n  <text x=\"178\" y=\"106\" fill=\"#D97706\" font-size=\"52\" font-weight=\"800\" text-anchor=\"middle\">0.28</text>\n  <text x=\"178\" y=\"132\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\">面試官判斷 vs 候選人自評相關係數</text>\n  <line x1=\"24\" y1=\"150\" x2=\"332\" y2=\"150\" stroke=\"#CBD5E1\"/>\n  <text x=\"24\" y=\"176\" fill=\"#475569\" font-size=\"14\">• 面試官判斷明顯不如候選人密友準</text>\n  <text x=\"24\" y=\"200\" fill=\"#475569\" font-size=\"14\">• 大五人格中最難看透：盡責性＋情緒穩定</text>\n  <text x=\"24\" y=\"224\" fill=\"#475569\" font-size=\"14\">• 所有人都知道面試必須演出「極負責任」</text>\n\n  <!-- 陷阱 2 -->\n  <rect x=\"382\" y=\"0\" width=\"356\" height=\"242\" rx=\"4\" fill=\"#F8FAFC\" stroke=\"#CBD5E1\" stroke-width=\"1.5\"/>\n  <rect x=\"382\" y=\"0\" width=\"356\" height=\"36\" rx=\"4\" fill=\"#0B2545\"/>\n  <text x=\"398\" y=\"23\" fill=\"#FFFFFF\" font-size=\"15\" font-weight=\"700\">陷阱 2｜盡責會「選擇性釋放」</text>\n  <!-- 雙向對比條 -->\n  <rect x=\"404\" y=\"58\" width=\"312\" height=\"44\" rx=\"3\" fill=\"#F1F5F9\" stroke=\"#CBD5E1\"/>\n  <text x=\"418\" y=\"78\" fill=\"#475569\" font-size=\"13\" font-weight=\"700\">史丹佛經濟學博士論文</text>\n  <text x=\"418\" y=\"95\" fill=\"#475569\" font-size=\"12\">拖延不寫、缺乏盡責性</text>\n  <rect x=\"404\" y=\"112\" width=\"312\" height=\"48\" rx=\"3\" fill=\"#FEF3C7\" stroke=\"#D97706\"/>\n  <text x=\"418\" y=\"133\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"800\">長篇小說《如意郎君》</text>\n  <text x=\"418\" y=\"152\" fill=\"#0B2545\" font-size=\"13\">幾年如一日極度投入 → 靠的是「痴迷」</text>\n  <text x=\"404\" y=\"188\" fill=\"#475569\" font-size=\"13\">案例：小說家維克拉姆·塞斯（Vikram Seth）</text>\n  <text x=\"404\" y=\"212\" fill=\"#0B2545\" font-size=\"13\" font-weight=\"700\">啟示：高盡責者未必把盡責釋放在你的工作上</text>\n\n  <!-- 陷阱 3 -->\n  <rect x=\"764\" y=\"0\" width=\"356\" height=\"242\" rx=\"4\" fill=\"#F8FAFC\" stroke=\"#CBD5E1\" stroke-width=\"1.5\"/>\n  <rect x=\"764\" y=\"0\" width=\"356\" height=\"36\" rx=\"4\" fill=\"#D97706\"/>\n  <text x=\"780\" y=\"23\" fill=\"#FFFFFF\" font-size=\"15\" font-weight=\"700\">陷阱 3｜韓國怪象：勤奮靠機制非性格</text>\n  <rect x=\"786\" y=\"56\" width=\"150\" height=\"74\" rx=\"3\" fill=\"#0B2545\"/>\n  <text x=\"861\" y=\"88\" fill=\"#D97706\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\">全球第 1</text>\n  <text x=\"861\" y=\"114\" fill=\"#FFFFFF\" font-size=\"13\" text-anchor=\"middle\">工作時長排名</text>\n  <rect x=\"948\" y=\"56\" width=\"150\" height=\"74\" rx=\"3\" fill=\"#F1F5F9\" stroke=\"#CBD5E1\"/>\n  <text x=\"1023\" y=\"88\" fill=\"#475569\" font-size=\"24\" font-weight=\"800\" text-anchor=\"middle\">全球末位</text>\n  <text x=\"1023\" y=\"114\" fill=\"#475569\" font-size=\"13\" text-anchor=\"middle\">勞動者盡責性評估</text>\n  <text x=\"786\" y=\"160\" fill=\"#475569\" font-size=\"13\">• 各國數據橫向對比：盡責性與工時呈微弱負相關</text>\n  <text x=\"786\" y=\"186\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"800\">• 結論：與其苦尋盡責者，不如設計對激勵機制</text>\n  <text x=\"786\" y=\"212\" fill=\"#475569\" font-size=\"13\">  （金錢與環境機制可激發出更強勤奮）</text>\n</svg>",
+      "highlights": [
+        {
+          "head": "面試演出讓測評失真",
+          "body": "盡責性與情緒穩定性是大五人格中面試官最難判準的兩項，與候選人自評相關係數僅 0.28。",
+          "stat": "r = 0.28"
+        },
+        {
+          "head": "盡責會偏向個人「痴迷」",
+          "body": "塞斯拖延博士論文卻傾注數年寫成《如意郎君》，顯示高盡責者只對自己真正痴迷的事釋放能量。",
+          "stat": ""
+        },
+        {
+          "head": "激勵機制勝過性格篩選",
+          "body": "韓國工時全球第 1 卻在盡責性排末位，證明勤奮常是環境壓力逼出；對的機制可讓普通人同樣拼命。",
+          "stat": "工時#1 vs 末位"
+        }
+      ],
+      "oneliner": "與其耗費巨資在面試裡猜誰天生盡責，不如把企業激勵與契約機制設計對。",
+      "keywords": [
+        "大五人格",
+        "盡責性",
+        "0.28",
+        "維克拉姆塞斯",
+        "韓國工時",
+        "激勵機制"
+      ],
+      "notes": [
+        "① 本頁結論：盡責性在選才階段存在測不準、用錯地方與環境替代三大陷阱。",
+        "② 補充說明：各國數據橫向比較顯示盡責性與工作時長沒有正相關，甚至有微弱負相關；解讀另提及激勵機制可延伸參考《一切皆契约》。",
+        "③ 下一頁轉場：破除三大高估迷思後，我們轉向書中點名最被嚴重低估的兩大核心素質。"
+      ]
+    },
+    {
+      "type": "chapter",
+      "layout": "split",
+      "title": "耐力是頂尖人才最被低估的素質，本質是「沒人看著時依然自我上發條」",
+      "chapters": "被低估因素 1 · 耐力（Stamina）",
+      "problem": "在尋找頂尖領導者與重大成就者時，哪項高含金量素質最常被 HR 漏掉？",
+      "svg": "<svg viewBox=\"0 0 580 390\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Noto Sans TC, Microsoft JhengHei, sans-serif\">\n  <rect x=\"0\" y=\"0\" width=\"580\" height=\"390\" rx=\"4\" fill=\"#F8FAFC\" stroke=\"#CBD5E1\"/>\n  <text x=\"24\" y=\"32\" fill=\"#0B2545\" font-size=\"16\" font-weight=\"800\">關鍵辨析：被動「盡責」vs 主動「耐力」</text>\n\n  <!-- 左卡：盡責 -->\n  <rect x=\"24\" y=\"54\" width=\"250\" height=\"236\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\" stroke-width=\"1.5\"/>\n  <rect x=\"24\" y=\"54\" width=\"250\" height=\"40\" rx=\"4\" fill=\"#475569\"/>\n  <text x=\"149\" y=\"80\" fill=\"#FFFFFF\" font-size=\"16\" font-weight=\"700\" text-anchor=\"middle\">盡責（外部軌道）</text>\n  <text x=\"40\" y=\"122\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"700\">觸發條件</text>\n  <text x=\"40\" y=\"142\" fill=\"#475569\" font-size=\"13\">有人要求、有規則、有考核時</text>\n  <line x1=\"40\" y1=\"158\" x2=\"258\" y2=\"158\" stroke=\"#F1F5F9\"/>\n  <text x=\"40\" y=\"182\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"700\">典型行為</text>\n  <text x=\"40\" y=\"202\" fill=\"#475569\" font-size=\"13\">按時打卡、照章辦事、完成交代</text>\n  <line x1=\"40\" y1=\"218\" x2=\"258\" y2=\"218\" stroke=\"#F1F5F9\"/>\n  <text x=\"40\" y=\"242\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"700\">上限瓶頸</text>\n  <text x=\"40\" y=\"262\" fill=\"#475569\" font-size=\"13\">做好標準執行，但難引領突破</text>\n\n  <!-- VS 圓圈 -->\n  <circle cx=\"290\" cy=\"172\" r=\"20\" fill=\"#D97706\"/>\n  <text x=\"290\" y=\"178\" fill=\"#FFFFFF\" font-size=\"14\" font-weight=\"800\" text-anchor=\"middle\">VS</text>\n\n  <!-- 右卡：耐力 -->\n  <rect x=\"306\" y=\"54\" width=\"250\" height=\"236\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#0B2545\" stroke-width=\"2\"/>\n  <rect x=\"306\" y=\"54\" width=\"250\" height=\"40\" rx=\"4\" fill=\"#0B2545\"/>\n  <text x=\"431\" y=\"80\" fill=\"#D97706\" font-size=\"16\" font-weight=\"800\" text-anchor=\"middle\">耐力（自我上發條）</text>\n  <text x=\"322\" y=\"122\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"700\">觸發條件</text>\n  <text x=\"322\" y=\"142\" fill=\"#0B2545\" font-size=\"13\" font-weight=\"700\">沒人要求、沒人看著的長期戰</text>\n  <line x1=\"322\" y1=\"158\" x2=\"540\" y2=\"158\" stroke=\"#F1F5F9\"/>\n  <text x=\"322\" y=\"182\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"700\">典型行為</text>\n  <text x=\"322\" y=\"202\" fill=\"#475569\" font-size=\"13\">持續主動推進、熬過殘酷篩選</text>\n  <line x1=\"322\" y1=\"218\" x2=\"540\" y2=\"218\" stroke=\"#F1F5F9\"/>\n  <text x=\"322\" y=\"242\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"700\">人才價值</text>\n  <text x=\"322\" y=\"262\" fill=\"#D97706\" font-size=\"13\" font-weight=\"800\">頂尖領導者與重大成就者標配</text>\n\n  <!-- 底部條：檢驗方法 -->\n  <rect x=\"24\" y=\"306\" width=\"532\" height=\"62\" rx=\"4\" fill=\"#0B2545\"/>\n  <text x=\"42\" y=\"331\" fill=\"#D97706\" font-size=\"13\" font-weight=\"800\">⚠ 選才警示：短時間面試（1–2 小時）幾乎測不出耐力（相關僅 0.28）</text>\n  <text x=\"42\" y=\"354\" fill=\"#FFFFFF\" font-size=\"13\">唯一可靠驗證路徑 → 深度背景調查（直接詢問前任直屬主管長期觀察）</text>\n</svg>",
+      "highlights": [
+        {
+          "head": "耐力≠按規矩打卡的盡責",
+          "body": "盡責是把別人要求的事做好；耐力是沒人要求、沒人監督時，依然維持高行動力持續推進的內在驅動。",
+          "stat": "自我上發條"
+        },
+        {
+          "head": "頂尖行業都在篩選耐力",
+          "body": "經濟學家羅賓·漢森觀察：醫學、法學、學術界早期殘酷考驗，及政治家不知疲倦的握手宣講，測的都是熬到後面的耐力。",
+          "stat": ""
+        },
+        {
+          "head": "面試測不出，必須靠背調",
+          "body": "主動性與耐力絕非 1–2 小時面試能測準（相關僅 0.28），必須透過推薦人長期共事紀錄交叉驗證。",
+          "stat": "必靠背調"
+        }
+      ],
+      "oneliner": "重大成就往往不是短跑衝刺的智力競賽，而是無人喝采時的長跑耐力賽。",
+      "keywords": [
+        "耐力",
+        "精力",
+        "羅賓漢森",
+        "自我上發條",
+        "頂尖領導者",
+        "背調"
+      ],
+      "notes": [
+        "① 本頁結論：耐力是人才搜尋中最被低估的素質，是區分優秀執行者與頂尖成就者的分水嶺。",
+        "② 補充說明：羅賓·漢森指出，那些早期殘酷耐力考驗某種程度上雖似浪費，卻因能篩出熬到最後的人而在高競爭領域長期存在。",
+        "③ 下一頁轉場：除了耐力，另一項被嚴重低估、且能在面試中直接探測的素質是「自我提升的主動意願」。"
+      ]
+    },
+    {
+      "type": "chapter",
+      "layout": "split",
+      "title": "比當前能力更重要的是自我迭代速度，可用「鋼琴家練音階」一題直擊真相",
+      "chapters": "被低估因素 2 · 自我提升的主動意願",
+      "problem": "如何在有限接觸裡，看穿候選人是「持續變強」還是「一眼望到頭」？",
+      "svg": "<svg viewBox=\"0 0 580 390\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Noto Sans TC, Microsoft JhengHei, sans-serif\">\n  <rect x=\"0\" y=\"0\" width=\"580\" height=\"390\" rx=\"4\" fill=\"#F8FAFC\" stroke=\"#CBD5E1\"/>\n  <text x=\"24\" y=\"32\" fill=\"#0B2545\" font-size=\"16\" font-weight=\"800\">測量自我迭代速度的兩把尺</text>\n\n  <!-- 上半部：奧爾特曼 3個月3次見面 -->\n  <rect x=\"24\" y=\"48\" width=\"532\" height=\"122\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#CBD5E1\"/>\n  <text x=\"40\" y=\"72\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"800\">尺 1｜OpenAI 奧爾特曼「3 個月 3 次見面」斜率測試</text>\n  <!-- 三個上升點 -->\n  <line x1=\"76\" y1=\"145\" x2=\"500\" y2=\"145\" stroke=\"#CBD5E1\" stroke-width=\"1.5\"/>\n  <polyline points=\"110,136 290,114 470,84\" fill=\"none\" stroke=\"#D97706\" stroke-width=\"3.5\"/>\n  <circle cx=\"110\" cy=\"136\" r=\"6\" fill=\"#0B2545\"/>\n  <circle cx=\"290\" cy=\"114\" r=\"6\" fill=\"#0B2545\"/>\n  <circle cx=\"470\" cy=\"84\" r=\"7\" fill=\"#D97706\"/>\n  <text x=\"110\" y=\"162\" fill=\"#475569\" font-size=\"12\" text-anchor=\"middle\">第 1 次見面 (M1)</text>\n  <text x=\"290\" y=\"162\" fill=\"#475569\" font-size=\"12\" text-anchor=\"middle\">第 2 次見面 (M2)</text>\n  <text x=\"470\" y=\"162\" fill=\"#D97706\" font-size=\"12\" font-weight=\"800\" text-anchor=\"middle\">第 3 次：明顯進步！</text>\n\n  <!-- 下半部：泰勒·考恩 鋼琴家練音階 -->\n  <rect x=\"24\" y=\"186\" width=\"532\" height=\"184\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#0B2545\" stroke-width=\"1.5\"/>\n  <rect x=\"24\" y=\"186\" width=\"532\" height=\"34\" rx=\"4\" fill=\"#0B2545\"/>\n  <text x=\"40\" y=\"208\" fill=\"#FFFFFF\" font-size=\"14\" font-weight=\"700\">尺 2｜考恩經典必問：「你日常類似『鋼琴家練音階』的常規訓練是什麼？」</text>\n\n  <!-- 好答案 vs 壞答案 -->\n  <rect x=\"40\" y=\"232\" width=\"276\" height=\"124\" rx=\"3\" fill=\"#FEF3C7\" stroke=\"#D97706\"/>\n  <text x=\"54\" y=\"254\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"800\">✓ 好答案：快、具體、持續、無人逼</text>\n  <text x=\"54\" y=\"278\" fill=\"#0B2545\" font-size=\"13\">• 向朋友試講，反覆打磨演講</text>\n  <text x=\"54\" y=\"300\" fill=\"#0B2545\" font-size=\"13\">• 解無實際用途冷門編程題保手感</text>\n  <text x=\"54\" y=\"322\" fill=\"#0B2545\" font-size=\"13\">• 鑽研極小科學領域掌握深度學習</text>\n  <text x=\"54\" y=\"346\" fill=\"#D97706\" font-size=\"12\" font-weight=\"700\">→ 具備內生變強引擎的高斜率人才</text>\n\n  <rect x=\"330\" y=\"232\" width=\"210\" height=\"124\" rx=\"3\" fill=\"#F1F5F9\" stroke=\"#CBD5E1\"/>\n  <text x=\"344\" y=\"254\" fill=\"#475569\" font-size=\"14\" font-weight=\"800\">✕ 壞答案：靜態天花板</text>\n  <text x=\"344\" y=\"280\" fill=\"#475569\" font-size=\"13\">• 支支吾吾、說不清楚</text>\n  <text x=\"344\" y=\"302\" fill=\"#475569\" font-size=\"13\">• 直接回答「我不知道」</text>\n  <text x=\"344\" y=\"330\" fill=\"#475569\" font-size=\"12\" font-weight=\"700\">→「一眼望到頭」的用人狀態</text>\n  <text x=\"344\" y=\"348\" fill=\"#94A3B8\" font-size=\"11\">僅適用對其現有水平已滿意之崗位</text>\n</svg>",
+      "highlights": [
+        {
+          "head": "奧爾特曼 3 個月 3 次法則",
+          "body": "3 個月內與同一人見 3 次面，若每次都能看到明顯進步，就應格外重視——進步速度常勝過當前絕對能力。",
+          "stat": "3個月×3次"
+        },
+        {
+          "head": "考恩必問「練音階」經典題",
+          "body": "追問：「你日常進行的、類似鋼琴家練音階那樣的常規訓練是什麼？」檢驗是否有天天不落下的自我精進機制。",
+          "stat": "音階式訓練"
+        },
+        {
+          "head": "好答案三特徵辨別高斜率",
+          "body": "向朋友試講、解冷門編程題、鑽研極小科學領域——共通點是「具體、持續、無人逼迫」；答不出則是一眼望到頭。",
+          "stat": "具體/持續/自發"
+        }
+      ],
+      "oneliner": "沒有常規自我訓練機制的人，或許能勝任當下崗位，卻注定缺乏向上延伸的斜率。",
+      "keywords": [
+        "自我提升",
+        "奧爾特曼",
+        "鋼琴家練音階",
+        "刻意練習",
+        "泰勒考恩",
+        "一眼望到頭"
+      ],
+      "notes": [
+        "① 本頁結論：常規化、無人逼迫的刻意練習機制，是判斷一個人未來成長斜率最直接的領先指標。",
+        "② 補充說明：書中前後兩次提及「鋼琴家練音階」提問，強調對年輕創始人與高潛人才而言，進步速度比絕對起點更關鍵。",
+        "③ 下一頁轉場：知道要看什麼之後，接下來進入面試官實戰——四招一舉多得的測真技法。"
+      ]
+    },
+    {
+      "type": "chapter",
+      "layout": "top-svg",
+      "title": "透過連問七八次耗盡準備稿與切換非正式場景，逼出候選人真實底色",
+      "chapters": "面試實戰技法 1 · 連續追問與改變環境",
+      "problem": "面對背熟面試手冊、全程處於防禦演戲模式的候選人，如何撕開標準劇本？",
+      "svg": "<svg viewBox=\"0 0 1120 255\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Noto Sans TC, Microsoft JhengHei, sans-serif\">\n  <!-- 左半部：連續追問漏斗 -->\n  <rect x=\"0\" y=\"0\" width=\"548\" height=\"250\" rx=\"4\" fill=\"#F8FAFC\" stroke=\"#CBD5E1\" stroke-width=\"1.5\"/>\n  <rect x=\"0\" y=\"0\" width=\"548\" height=\"36\" rx=\"4\" fill=\"#0B2545\"/>\n  <text x=\"18\" y=\"23\" fill=\"#FFFFFF\" font-size=\"15\" font-weight=\"700\">技法 1｜連續追問 7–8 次：耗盡預備稿，逼出真實庫存與坦誠度</text>\n\n  <!-- 三階梯形漏斗（加寬容納雙行，確保零裁切） -->\n  <polygon points=\"20,48 528,48 504,96 44,96\" fill=\"#F1F5F9\" stroke=\"#CBD5E1\"/>\n  <text x=\"274\" y=\"77\" fill=\"#475569\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\">第 1–2 次追問：面試手冊標準答案（幾乎全數提前備好）</text>\n\n  <polygon points=\"48,104 500,104 476,154 72,154\" fill=\"#1E3A5F\"/>\n  <text x=\"274\" y=\"125\" fill=\"#FFFFFF\" font-size=\"14\" font-weight=\"800\" text-anchor=\"middle\">第 3–4 次追問：存貨見底，出現停頓</text>\n  <text x=\"274\" y=\"144\" fill=\"#CBD5E1\" font-size=\"12.5\" text-anchor=\"middle\">關鍵守則：不移開目光、不用笑聲破僵局</text>\n\n  <polygon points=\"76,162 472,162 448,218 100,218\" fill=\"#D97706\"/>\n  <text x=\"274\" y=\"185\" fill=\"#FFFFFF\" font-size=\"15\" font-weight=\"800\" text-anchor=\"middle\">第 5–8 次追問：真相浮現區</text>\n  <text x=\"274\" y=\"206\" fill=\"#FFFFFF\" font-size=\"12.5\" text-anchor=\"middle\">真乾貨（再舉新例） vs 坦誠有數 vs 硬編空話</text>\n  <text x=\"274\" y=\"238\" fill=\"#475569\" font-size=\"12\" text-anchor=\"middle\">面試裡會在詞窮時講空話的人，在工作裡也同樣會講空話</text>\n\n  <!-- 右半部：改變面試環境 -->\n  <rect x=\"572\" y=\"0\" width=\"548\" height=\"250\" rx=\"4\" fill=\"#F8FAFC\" stroke=\"#CBD5E1\" stroke-width=\"1.5\"/>\n  <rect x=\"572\" y=\"0\" width=\"548\" height=\"36\" rx=\"4\" fill=\"#0B2545\"/>\n  <text x=\"590\" y=\"23\" fill=\"#FFFFFF\" font-size=\"15\" font-weight=\"700\">技法 2｜改變面試環境：打破會議室防禦，觀測真實應變模式</text>\n\n  <!-- 狀態切換對比 -->\n  <rect x=\"594\" y=\"56\" width=\"214\" height=\"110\" rx=\"4\" fill=\"#F1F5F9\" stroke=\"#CBD5E1\"/>\n  <text x=\"701\" y=\"82\" fill=\"#475569\" font-size=\"15\" font-weight=\"800\" text-anchor=\"middle\">會議室「面試模式」</text>\n  <text x=\"610\" y=\"108\" fill=\"#475569\" font-size=\"13\">• 高度武裝防禦狀態</text>\n  <text x=\"610\" y=\"130\" fill=\"#475569\" font-size=\"13\">• 一問一答劇本演出</text>\n  <text x=\"610\" y=\"152\" fill=\"#475569\" font-size=\"13\">• 零意外、零真實互動</text>\n\n  <!-- 箭頭 -->\n  <line x1=\"814\" y1=\"111\" x2=\"862\" y2=\"111\" stroke=\"#D97706\" stroke-width=\"3\"/>\n  <polygon points=\"868,111 856,104 856,118\" fill=\"#D97706\"/>\n  <text x=\"840\" y=\"96\" fill=\"#D97706\" font-size=\"12\" font-weight=\"800\" text-anchor=\"middle\">切換場景</text>\n\n  <rect x=\"874\" y=\"56\" width=\"224\" height=\"110\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#D97706\" stroke-width=\"2\"/>\n  <text x=\"986\" y=\"82\" fill=\"#0B2545\" font-size=\"15\" font-weight=\"800\" text-anchor=\"middle\">咖啡店／散步「真實模式」</text>\n  <text x=\"890\" y=\"108\" fill=\"#0B2545\" font-size=\"13\">• 跟服務員自然對話卸防備</text>\n  <text x=\"890\" y=\"130\" fill=\"#0B2545\" font-size=\"13\">• 檢驗日常共事真實狀態</text>\n  <text x=\"890\" y=\"152\" fill=\"#D97706\" font-size=\"13\" font-weight=\"700\">• 捕捉意外事件的應變反應</text>\n\n  <!-- 案例框 -->\n  <rect x=\"594\" y=\"180\" width=\"504\" height=\"54\" rx=\"4\" fill=\"#0B2545\"/>\n  <text x=\"612\" y=\"203\" fill=\"#D97706\" font-size=\"13\" font-weight=\"800\">實戰觀測點：星巴克突然沒座位了，他怎麼反應？</text>\n  <text x=\"612\" y=\"223\" fill=\"#FFFFFF\" font-size=\"13\">主動提議下一步方案（高主動性） vs 站著等你安排（被動依賴）</text>\n</svg>",
+      "highlights": [
+        {
+          "head": "連問七八次＋保持眼神壓迫",
+          "body": "對「超越職責的例子」或「最好想法」反覆追問「再舉一個」；絕不移開目光、不用笑聲破僵局、不給轉移話題機會。",
+          "stat": "連問 7–8 次"
+        },
+        {
+          "head": "詞窮瞬間看乾貨與坦誠度",
+          "body": "到第 5–8 個還能舉新例＝真做過；乾脆說「想到的就這些」＝坦誠有數；硬編講空話＝工作中也會搪塞。",
+          "stat": ""
+        },
+        {
+          "head": "移出會議室捕捉真實意外",
+          "body": "改去咖啡店、散步或公園長凳聊；當跟服務員對話卸下防備、或遇星巴克沒座位時，最能看出主動解題還是被動等安排。",
+          "stat": "真實模式"
+        }
+      ],
+      "oneliner": "唯有把準備好的答案徹底耗盡、並把人帶離防禦舞台，真實品格與能力才會浮現。",
+      "keywords": [
+        "連續追問",
+        "耗盡準備稿",
+        "坦誠度",
+        "改變面試環境",
+        "咖啡店面試",
+        "星巴克沒座位"
+      ],
+      "notes": [
+        "① 本頁結論：高階面試的核心不是問新奇問題，而是打破防禦狀態與劇本演出。",
+        "② 補充說明：來源強調當一個人準備的東西用完又不想顯得無能時，最容易講空話，這項行為會高度遷移到實際工作中。",
+        "③ 下一頁轉場：再看另外兩招實戰技法——如何改良失效的矽谷經典名題，以及不可妥協的背調鐵律。"
+      ]
+    },
+    {
+      "type": "chapter",
+      "layout": "split",
+      "title": "傳統逆向問題已淪為「反常順從」，改用主流共識提問與前上級背調破局",
+      "chapters": "面試實戰技法 2 · 反向問題與背調鐵律",
+      "problem": "當所有聰明人都背熟了矽谷反主流考題，該如何真實探測其價值排序與誠信？",
+      "svg": "<svg viewBox=\"0 0 580 390\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Noto Sans TC, Microsoft JhengHei, sans-serif\">\n  <rect x=\"0\" y=\"0\" width=\"580\" height=\"390\" rx=\"4\" fill=\"#F8FAFC\" stroke=\"#CBD5E1\"/>\n  <text x=\"24\" y=\"32\" fill=\"#0B2545\" font-size=\"16\" font-weight=\"800\">矽谷名題的失效與反轉 ＋ 背調紅燈訊號</text>\n\n  <!-- 失效舊題 -->\n  <rect x=\"24\" y=\"50\" width=\"532\" height=\"96\" rx=\"4\" fill=\"#F1F5F9\" stroke=\"#CBD5E1\"/>\n  <rect x=\"24\" y=\"50\" width=\"8\" height=\"96\" fill=\"#94A3B8\"/>\n  <text x=\"46\" y=\"74\" fill=\"#475569\" font-size=\"13\" font-weight=\"800\">✕ 已失效舊題（泰勒·考恩 2006 原創 / 彼得·蒂爾推廣）</text>\n  <text x=\"46\" y=\"100\" fill=\"#0B2545\" font-size=\"15\" font-weight=\"700\">「你堅信哪些其他聰明人認為荒謬的真理？」</text>\n  <text x=\"46\" y=\"128\" fill=\"#475569\" font-size=\"13\">失效原因：太有名已被背熟，變成獎勵「恰到好處叛逆」的反常順從</text>\n\n  <!-- 向下轉換箭頭 -->\n  <line x1=\"290\" y1=\"150\" x2=\"290\" y2=\"176\" stroke=\"#D97706\" stroke-width=\"3\"/>\n  <polygon points=\"290,182 283,170 297,170\" fill=\"#D97706\"/>\n\n  <!-- 有效新題 -->\n  <rect x=\"24\" y=\"186\" width=\"532\" height=\"104\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#D97706\" stroke-width=\"2\"/>\n  <rect x=\"24\" y=\"186\" width=\"8\" height=\"104\" fill=\"#D97706\"/>\n  <text x=\"46\" y=\"210\" fill=\"#D97706\" font-size=\"13\" font-weight=\"800\">✓ 有效反向替代題（考恩實測有效）</text>\n  <text x=\"46\" y=\"236\" fill=\"#0B2545\" font-size=\"16\" font-weight=\"800\">「你完全贊同的一個主流觀點或共識是什麼？」</text>\n  <text x=\"46\" y=\"264\" fill=\"#475569\" font-size=\"13\">優勢：不具威脅、難迴避、不怕社群攻擊 → 真實暴露底層價值排序</text>\n  <text x=\"46\" y=\"282\" fill=\"#0B2545\" font-size=\"12\" font-weight=\"700\">（例：更看重更快創新？減少貧困？還是修補制度漏洞？）</text>\n\n  <!-- 背調紅燈條 -->\n  <rect x=\"24\" y=\"306\" width=\"532\" height=\"68\" rx=\"4\" fill=\"#0B2545\"/>\n  <text x=\"42\" y=\"330\" fill=\"#D97706\" font-size=\"14\" font-weight=\"800\">⚑ 背調鐵律：識別無法在面試測出的責任心、道德感與耐力</text>\n  <text x=\"42\" y=\"356\" fill=\"#FFFFFF\" font-size=\"13\">紅燈訊號：推薦人名單若缺少「前一任直接上級」或匯報鏈關鍵人＝負面訊號</text>\n</svg>",
+      "highlights": [
+        {
+          "head": "名題失效成「反常的順從」",
+          "body": "考恩 2006 年原創「你堅信哪些荒謬真理」因太有名，候選人總備好「恰到好處的叛逆」，反倒獎勵了順從。",
+          "stat": "2006 名題失效"
+        },
+        {
+          "head": "改問「完全贊同的主流共識」",
+          "body": "不具威脅、難迴避且不怕社群攻擊，卻能直接透視候選人真正的底層價值排序（創新、減貧或補制度漏洞）。",
+          "stat": "透視價值排序"
+        },
+        {
+          "head": "背調紅燈：缺前一任直接上級",
+          "body": "責任心、道德感與耐力必靠背調；若推薦人名單沒有前一任直接上級或匯報鏈關鍵人，即屬明確負面訊號。",
+          "stat": "前直屬上級"
+        }
+      ],
+      "oneliner": "會出題不如會反轉失效題，面試聊得再投緣也不能省掉前直屬上級的深度背調。",
+      "keywords": [
+        "反向問題",
+        "主流共識",
+        "彼得蒂爾",
+        "反常順從",
+        "價值排序",
+        "背調紅燈",
+        "前任上級"
+      ],
+      "notes": [
+        "① 本頁結論：將逆向考題反轉為「主流共識」能直擊真實價值觀，並須搭配前任直屬主管背調封堵面試盲區。",
+        "② 補充說明：來源指出該經典逆向題常被誤認為彼得·蒂爾首創，實則更早出自泰勒·考恩 2006 年部落格文章。",
+        "③ 下一頁轉場：看完了評估者這一側，現在反轉視角——如果你是求職者或渴望晉升的職場人，該如何讓價值被看見？"
+      ]
+    },
+    {
+      "type": "chapter",
+      "layout": "top-svg",
+      "title": "當標準答案因 AI 貶值，求職與晉升者須靠「攢故事、攢推薦人、攢證據」證明斜率",
+      "chapters": "被評估者視角 · 讓價值被看見的三把鑰匙",
+      "problem": "無論近期有無面試需求，職場人該如何累積無法被 AI 取代或偽造的個人資產？",
+      "svg": "<svg viewBox=\"0 0 1120 265\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Noto Sans TC, Microsoft JhengHei, sans-serif\">\n  <!-- 支柱 1 -->\n  <rect x=\"0\" y=\"0\" width=\"356\" height=\"258\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#0B2545\" stroke-width=\"1.5\"/>\n  <rect x=\"0\" y=\"0\" width=\"356\" height=\"42\" rx=\"4\" fill=\"#0B2545\"/>\n  <text x=\"18\" y=\"27\" fill=\"#D97706\" font-size=\"16\" font-weight=\"800\">01 ｜ 別背答案，攢故事</text>\n  <text x=\"18\" y=\"68\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"700\">細節密度＝天然防偽機制（本質勝於口才）</text>\n  <text x=\"18\" y=\"94\" fill=\"#475569\" font-size=\"13\">準備 5–8 件真實親歷（寫成 3 分鐘細節故事）：</text>\n  <text x=\"18\" y=\"116\" fill=\"#475569\" font-size=\"13\">• 搞砸後修正的事　• 無人要求主動做的事</text>\n  <text x=\"18\" y=\"138\" fill=\"#475569\" font-size=\"13\">• 收拾爛攤子的事　• 花很久才做成的大事</text>\n  <!-- 英雄之旅微流程 -->\n  <rect x=\"16\" y=\"164\" width=\"96\" height=\"34\" rx=\"3\" fill=\"#F1F5F9\" stroke=\"#CBD5E1\"/>\n  <text x=\"64\" y=\"186\" fill=\"#0B2545\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\">遇到挑戰</text>\n  <text x=\"122\" y=\"186\" fill=\"#D97706\" font-size=\"16\" font-weight=\"800\" text-anchor=\"middle\">→</text>\n  <rect x=\"132\" y=\"164\" width=\"96\" height=\"34\" rx=\"3\" fill=\"#F1F5F9\" stroke=\"#CBD5E1\"/>\n  <text x=\"180\" y=\"186\" fill=\"#0B2545\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\">征服挑戰</text>\n  <text x=\"238\" y=\"186\" fill=\"#D97706\" font-size=\"16\" font-weight=\"800\" text-anchor=\"middle\">→</text>\n  <rect x=\"248\" y=\"164\" width=\"92\" height=\"34\" rx=\"3\" fill=\"#D97706\"/>\n  <text x=\"294\" y=\"186\" fill=\"#FFFFFF\" font-size=\"12\" font-weight=\"800\" text-anchor=\"middle\">收穫成長</text>\n  <text x=\"18\" y=\"226\" fill=\"#475569\" font-size=\"12\">含具體數字、場景、人物，反覆演練到不磕巴</text>\n\n  <!-- 支柱 2 -->\n  <rect x=\"382\" y=\"0\" width=\"356\" height=\"258\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#0B2545\" stroke-width=\"1.5\"/>\n  <rect x=\"382\" y=\"0\" width=\"356\" height=\"42\" rx=\"4\" fill=\"#0B2545\"/>\n  <text x=\"400\" y=\"27\" fill=\"#D97706\" font-size=\"16\" font-weight=\"800\">02 ｜ 經營長期，攢推薦人</text>\n  <text x=\"400\" y=\"68\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"700\">重要但不緊急：前上級評價是跟你走的資產</text>\n  <rect x=\"400\" y=\"84\" width=\"320\" height=\"68\" rx=\"3\" fill=\"#F1F5F9\"/>\n  <text x=\"414\" y=\"106\" fill=\"#0B2545\" font-size=\"13\" font-weight=\"800\">平時經營節奏（每 2–3 個月一次）</text>\n  <text x=\"414\" y=\"126\" fill=\"#475569\" font-size=\"12\">主動向認可前輩同步：在做什麼、有意識提升</text>\n  <text x=\"414\" y=\"143\" fill=\"#475569\" font-size=\"12\">哪方面、採納其建議後的行動與成果</text>\n  <rect x=\"400\" y=\"164\" width=\"320\" height=\"74\" rx=\"3\" fill=\"#FEF3C7\" stroke=\"#D97706\"/>\n  <text x=\"414\" y=\"186\" fill=\"#0B2545\" font-size=\"13\" font-weight=\"800\">請寫推薦信的關鍵動作</text>\n  <text x=\"414\" y=\"206\" fill=\"#0B2545\" font-size=\"12\">別只說「誇誇我就行」（泛泛稱讚背調價值低）</text>\n  <text x=\"414\" y=\"224\" fill=\"#0B2545\" font-size=\"12\">→ 主動附上近半年推起的專案與解決問題素材</text>\n\n  <!-- 支柱 3 -->\n  <rect x=\"764\" y=\"0\" width=\"356\" height=\"258\" rx=\"4\" fill=\"#FFFFFF\" stroke=\"#D97706\" stroke-width=\"2\"/>\n  <rect x=\"764\" y=\"0\" width=\"356\" height=\"42\" rx=\"4\" fill=\"#D97706\"/>\n  <text x=\"782\" y=\"27\" fill=\"#FFFFFF\" font-size=\"16\" font-weight=\"800\">03 ｜ 別攢形容詞，攢證據</text>\n  <text x=\"782\" y=\"68\" fill=\"#475569\" font-size=\"13\">✕ 零資訊廢話：「我學習能力強、一直在進步」</text>\n  <text x=\"782\" y=\"92\" fill=\"#0B2545\" font-size=\"14\" font-weight=\"800\">✓ 三要素湊齊＝畫出一條真實斜率線：</text>\n  <rect x=\"782\" y=\"104\" width=\"320\" height=\"40\" rx=\"3\" fill=\"#F1F5F9\"/>\n  <text x=\"794\" y=\"129\" fill=\"#0B2545\" font-size=\"13\"><tspan font-weight=\"800\" fill=\"#D97706\">① 具體：</tspan>每週三晚讀 2 篇論文、做 1 頁筆記</text>\n  <rect x=\"782\" y=\"150\" width=\"320\" height=\"40\" rx=\"3\" fill=\"#F1F5F9\"/>\n  <text x=\"794\" y=\"175\" fill=\"#0B2545\" font-size=\"13\"><tspan font-weight=\"800\" fill=\"#D97706\">② 持續：</tspan>不是最近在學，是已堅持 8 個月</text>\n  <rect x=\"782\" y=\"196\" width=\"320\" height=\"48\" rx=\"3\" fill=\"#0B2545\"/>\n  <text x=\"794\" y=\"216\" fill=\"#FFFFFF\" font-size=\"13\"><tspan font-weight=\"800\" fill=\"#D97706\">③ 進展：</tspan>讀 3 萬字論文 3hr → 1hr</text>\n  <text x=\"854\" y=\"235\" fill=\"#94A3B8\" font-size=\"12\">且已能挑出作者研究方法的問題</text>\n</svg>",
+      "highlights": [
+        {
+          "head": "攢 5–8 個 3 分鐘細節故事",
+          "body": "時間、地點、人物與數字構成天然防偽密度；按「遇挑戰→征服挑戰→收穫成長」練習，答案本質重於口才敏捷。",
+          "stat": "5–8 個故事"
+        },
+        {
+          "head": "每 2–3 個月經營推薦人資產",
+          "body": "前上級評價不會離職就翻篇；平時定期同步進展與採納建議後的成效，請託推薦信時主動提供具體專案素材。",
+          "stat": "每 2–3 個月"
+        },
+        {
+          "head": "用「具體＋持續＋進展」取代形容詞",
+          "body": "淘汰「學習力強」等零資訊廢話；例：每週三讀 2 篇論文、持續 8 個月、從 3 小時縮短為 1 小時且能挑出方法問題。",
+          "stat": "3hr → 1hr"
+        }
+      ],
+      "oneliner": "斜率無法臨時抱佛腳，它是透過真實故事、口碑資產與可量化常規訓練日積月累而成。",
+      "keywords": [
+        "攢故事",
+        "英雄之旅",
+        "攢推薦人",
+        "攢證據",
+        "零資訊形容詞",
+        "防偽機制"
+      ],
+      "notes": [
+        "① 本頁結論：被評估者要跳脫背題思維，長期累積真實故事、推薦人信任與可量化進展三項不可偽造資產。",
+        "② 補充說明：來源援引《高效能人士的7個習慣》概念，提醒經營推薦人屬於「重要但不緊急」的高槓桿行動。",
+        "③ 下一頁轉場：最後透過章節脈絡圖，把全書五個遞進邏輯環節一次串起。"
+      ]
+    },
+    {
+      "type": "flow",
+      "title": "全書由破除靜態指標出發，經由雙側實戰落地，終回歸個人動態斜率的長期複利",
+      "steps": [
+        {
+          "chapter": "1. 重塑視角",
+          "conclusion": "區分靜態截距與動態斜率",
+          "leads_to": "既要看斜率，就必須檢驗現有截距指標是否失靈"
+        },
+        {
+          "chapter": "2. 破除迷思",
+          "conclusion": "學歷、智商、盡責性被高估",
+          "leads_to": "舊指標失效後，迫切需要找出真正被低估的訊號"
+        },
+        {
+          "chapter": "3. 鎖定訊號",
+          "conclusion": "抓住耐力與音階式自驅提升",
+          "leads_to": "訊號明確後，須解決 1–2 小時面試測不準的難題"
+        },
+        {
+          "chapter": "4. 測真技法",
+          "conclusion": "連問＋換場＋共識題＋上級背調",
+          "leads_to": "看懂評估者怎麼識人，反向推導個人如何展示價值"
+        },
+        {
+          "chapter": "5. 雙向閉環",
+          "conclusion": "攢故事、攢推薦人、攢證據",
+          "leads_to": "回歸無人監督時的微小持久努力，形成無法假裝的斜率"
+        }
+      ],
+      "notes": [
+        "① 本頁結論：五步論證環環相扣，從理念破局、數據拆解、工具落地到雙側角色對齊形成完整閉環。",
+        "② 補充說明：前四步為管理者打造科學選才框架，第五步將同一套邏輯翻轉為個人長期職涯護城河。",
+        "③ 下一頁轉場：進入全書精華總結與立即可執行的雙側落地行動。"
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "真正決定能走多高的，是沒人看著時你是否仍在用可衡量的方式往前走",
+      "image": "../assets/img/slope-concept-art.jpg",
+      "quote": "別太在意你現在站在哪兒，你應該在意的是，三年後的自己，會不會感謝今天你做出的那些微小但持久的努力。",
+      "points": [
+        "選才看斜率不看截距：學歷解釋力已跌至 38%，且世上沒有通用的優秀",
+        "與其盲測盡責性（面試相關僅 0.28），不如設計對的組織激勵機制",
+        "鎖定耐力與音階式自驅練習，善用連問 7–8 次、換場地、主流共識題與前上級背調",
+        "AI 時代標準答案已失效，唯有高細節故事、長期推薦人與可量化進步證據無法假裝"
+      ],
+      "action": "【管理者】下次面試必問「類似鋼琴家練音階的常規訓練」並對案例連問 5 次以上，堅持查核前直屬上級背調；【職場人】本週寫下 5 個 3 分鐘真實細節故事，並啟動一項「具體、持續、可量化進展」的每週訓練。",
+      "notes": [
+        "① 本頁結論：截距已固定，斜率卻會隨日積月累的行動變化且無法假裝，今天的一點坡度將在數年後拉開巨大差距。",
+        "② 補充說明：雙角色行動方案均直接萃取自來源文稿中的實操建議，確保讀完即可於本週落地。",
+        "③ 下一頁轉場：最後附錄彙整書中關鍵實證數據與原文邊界說明，供選才實務速查。"
+      ]
+    },
+    {
+      "type": "appendix",
+      "title": "附錄：核心實證數據索引與來源邊界聲明（供選才與複盤速查）",
+      "items": [
+        {
+          "ref": "美國收入差異研究（1980–2017）",
+          "why": "學歷解釋力由 75% 降至 38%，佐證學歷通膨與同學歷內部分化趨勢（原解讀未載作者名，原文未載）"
+        },
+        {
+          "ref": "芬蘭男性服兵役智商追蹤研究（1961–1984 出生）",
+          "why": "發明家（智商 66%/父母學歷 1%）、醫生（8%/39%）、律師（5%/52%），破除單一通用優秀迷思"
+        },
+        {
+          "ref": "扎戈斯基美國智商與財富追蹤（1979–2004）",
+          "why": "追蹤 7,403 人：智商每高 1 分年收多 200–600 美元，但與總財富無正相關，照樣透支破產"
+        },
+        {
+          "ref": "大五人格面試效度與韓國工時反常",
+          "why": "面試官判斷與自評相關係數僅 0.28；韓國工時全球第 1 但盡責性末位，印證機制勝過性格篩選"
+        },
+        {
+          "ref": "來源邊界聲明（防幻覺守則）",
+          "why": "本簡報嚴格依據得到 APP《成長的斜率》哈希解讀文稿（26分47秒）提煉；原著其餘未述章節均標「原文未載」"
+        }
+      ],
+      "notes": [
+        "① 本頁結論：附錄彙整四大高含金量實證數據，方便中高階主管在內部推動選才變革時直接引用佐證。",
+        "② 補充說明：完整對應 Notion「3.3.3 選才 → 3.3.3.1 甄選」模組，未來可持續擴充招募與結構化面試題庫。",
+        "③ 下一頁轉場：（結束）"
+      ]
+    }
+  ]
+}
