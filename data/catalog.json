@@ -1,12 +1,13 @@
 {
   "tagline": "精選經典人資著作的麥肯錫風格 10 分鐘導讀簡報：支援「Notion 3.3 人資管理架構」與「原主題分類」雙軌知識地圖，一站搜尋、快速學習。",
-  "updated": "2026-11-23",
+  "updated": "2026-11-25",
   "domains": [
     {"id": "foundation", "name": "人資管理通論", "desc": "六大模組與基本功：完整的人資管理知識框架"},
     {"id": "selection", "name": "選才與人才識別", "desc": "高潛人才評估、面試實戰技法與人才斜率判讀"},
     {"id": "strategy", "name": "策略與顧問視角", "desc": "從業務與投行／顧問視角重新定位人資價值"},
     {"id": "reward", "name": "薪酬與人才機制", "desc": "薪酬哲學、激勵與人才機制設計"},
     {"id": "digital", "name": "HR 數位化", "desc": "認知升級與系統建構，數據驅動的人資管理"},
+    {"id": "ai_hr", "name": "AI 與未來組織（A2.5.4.5）", "desc": "對應資料夾 A2.5.4.5 AI HR：AI 對職務設計、組織架構與人才梯隊的衝擊"},
     {"id": "ob", "name": "組織行為學", "desc": "對應資料夾 A2.5.4.2（待擴充）"},
     {"id": "team", "name": "高績效團隊", "desc": "對應資料夾 A2.5.4.3（待擴充）"}
   ],
@@ -55,7 +56,8 @@
     }
   ],
   "decks": [
-    {"id": "b7", "file": "b7.json", "slug": "slope-of-growth", "domain": "selection", "notion": "3.3.3", "notionSub": "3.3.3.1 甄選", "badge": "NEW · SVG圖表＋重繪配圖"},
+    {"id": "b8", "file": "b8.json", "slug": "messy-jobs", "domain": "ai_hr", "notion": "3.3.4", "notionSub": "3.3.4.2 工作設計", "badge": "NEW · SVG圖表＋重繪配圖"},
+    {"id": "b7", "file": "b7.json", "slug": "slope-of-growth", "domain": "selection", "notion": "3.3.3", "notionSub": "3.3.3.1 甄選", "badge": "SVG圖表＋重繪配圖"},
     {"id": "b4", "file": "b4.json", "slug": "hrm-wu-shaohua", "domain": "foundation", "notion": "3.3.1", "notionSub": "3.3.1 人力資源管理"},
     {"id": "b6", "file": "b6.json", "slug": "mckinsey-hr", "domain": "strategy", "notion": "3.3.1", "notionSub": "3.3.1 人力資源管理"},
     {"id": "b5", "file": "b5.json", "slug": "wallstreet-hr", "domain": "strategy", "notion": "3.3.1", "notionSub": "3.3.1 人力資源管理"},
